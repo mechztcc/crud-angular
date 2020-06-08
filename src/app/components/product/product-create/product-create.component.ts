@@ -18,9 +18,11 @@ export class ProductCreateComponent implements OnInit {
     price: null
   }
 
+
   constructor(private router: Router, private productService: ProductService) { }
 
   ngOnInit(): void {
+    
   }
 
   navigateToProducts(): void {
